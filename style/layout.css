@@ -1,0 +1,209 @@
+body{
+   background: url('../images/logo_background/body-bg.gif');
+    font-size:12px;
+    line-height:1.3;
+    font-family:Arial, Helvetica, Sans-Serif;
+    color:#ccc;
+    width:1000px;
+    margin:0 auto;
+}
+.header {
+    padding: 1em 0;
+	border-top: 3px solid #FF8D1B;
+}
+.logo{
+	float:left;
+}
+.logo a{
+	display:block;
+	text-decoration:none;
+}
+.logo a h1{
+	font-size: 2.8em;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 1.67em;
+    font-weight: 900;
+	padding-bottom: .3em;
+}
+.logo a h1 span{
+	color: #FF8D1B;
+    font-size: .3em;
+    display: block;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: right;
+    line-height: 0;
+}
+#navbar{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+}
+#navigation{
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    border-left: 1px solid #FF8D1B;
+    border-right: 1px solid #FF8D1B;
+}
+ul#navigation li{
+    display: inline;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0;
+    padding:0;
+    float: left;
+    position:relative;
+    border-top: 1px solid #FF8D1B;
+    border-bottom: 1px solid #FF8D1B;
+}
+ul#navigation li a{
+    padding: 10px 25px;
+    color: #FF8D1B;
+    text-shadow: 1px 1px 0px white;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid #FF8D1B;
+    border-left: 1px solid #FF8D1B;
+    border-top: 1px solid #FF8D1B;
+}
+ul#navigation li a:hover{
+    background: grey;
+    color: grey;
+}
+ul#navigation li:hover> a{
+    background: grey;
+}
+ul#navigation li:hover>ul{
+    visibility: visible;
+    opacity: 1;
+}
+ul#navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index:999999;
+    width: 180px;
+    background: #FF8D1B;
+    box-shadow: 1px 1px 3px grey;
+}
+ul#navigation ul{
+    top:43px;
+    left: 1px;
+}
+ul#navigation ul li{
+    clear: both;
+    width: 100%;
+    border:0 none;
+    border-bottom: 1px solid blue;
+}
+ul#navigation ul li a{
+    background: none;
+    padding: 7px 15px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    text-decoration: none;
+    display: inline-block;
+    border:0 none;
+    float: left;
+    clear: both;
+    width: 150px;
+}
+#register{
+    float:right;
+    margin-top: 2em;
+}
+.register ul li a{
+    display: inline-block;
+    color: #FF8D1B;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 10px;
+    font-weight: bold;
+}
+#search {
+    width:2px;
+    margin:0 0 0 auto;
+    margin-right: 12em;
+    margin-top: .7em;
+}
+#search label {
+    float:left;
+    display:inline;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    line-height:24px;
+    padding-right:1px;
+}
+#search .search-field {
+    width:150px;
+    border:1px solid #413e3e;
+    background:white;
+    color:#787878;
+    padding:2px 0px;
+}
+#search .search-button {
+    font-size:14px;
+    font-weight:bold;
+    border:0;
+    background:none;
+    color:#fff;
+    cursor:pointer;
+}
+/* sign up sign in page */
+
+
+.signup{
+    width: 200px;
+    padding: 10px 100px;
+    background-color: orange;
+    margin: 50px auto;
+    border-radius: 30px;
+    color:blue;
+}
+.signup form button {
+    border-radius: 10px;
+    color: blue;
+    width: 100px;
+    height: 25px;
+    margin: 0 30px;
+}
+.signup form button:hover{
+    background-color: #f73d59;
+    transition: .5s;
+}
+.head {
+    font-family: montserrat;
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+}
+
+/*login ------------*/
+.login{
+    width: 200px;
+    background-color: orange;
+    padding: 10px 100px;
+    border-radius: 30px;
+    margin: 200px auto;
+    color: blue;
+}
+.login form button{
+    border-radius: 10px;
+    width: 100px;
+    color: blue;
+    height: 25px;
+}
+.login form button:hover{
+    background-color: #80d5ed;
+    transition: .5s;
+}

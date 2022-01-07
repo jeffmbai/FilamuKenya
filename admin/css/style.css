@@ -1,0 +1,130 @@
+
+
+.signup{
+	width: 200px;
+	padding: 10px 100px;
+	background-color: orange;
+	margin: 50px auto;
+	border-radius: 30px;
+}
+.signup form button {
+	border-radius: 10px;
+	color: blue;
+	width: 100px;
+	height: 25px;
+	margin: 0 30px;
+}
+.signup form button:hover{
+	background-color: #f73d59;
+	transition: .5s;
+}
+.head {
+	font-family: montserrat;
+	font-size: 25px;
+	color: blue;
+	text-decoration: none;
+}
+/*login ------------*/
+.login{
+	width: 200px;
+	background-color: orange;
+	padding: 10px 100px;
+	border-radius: 30px;
+	margin: 200px auto;
+}
+.login form button{
+	border-radius: 10px;
+	width: 100px;
+	color: blue;
+	height: 25px;
+}
+.login form button:hover{
+	background-color: #80d5ed;
+	transition: .5s;
+}
+/* dashboard */
+.side_nav{
+	height: 620px;
+	background-color: blue;
+	width: 260px;
+	float: left;
+	display: inline-block;
+}
+.side_nav #label{
+	width: 260px;
+	height: 60px;
+	background-color: black;
+	margin-bottom: 10px;
+}
+.side_nav #label p{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 65px;
+}
+.side_nav #nav a{
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	display: block;
+	margin: 40px 60px;
+	font-size: 20px;
+}
+.side_nav #nav a:hover{
+	color: red;
+	transition: .5s;
+}
+
+.side_nav #nav a.active{
+	color: red;
+}
+.adm_cont{
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	height: 620px;
+	width: 1060px;
+	background-color: #f7f7ed;
+}
+/* trailer */
+.content_add {
+	width: 600px;
+	height: 300px;
+	background-color: #e0d5d5;
+	margin: 90px auto;
+	border-radius: 20px;
+	padding: 40px;
+}
+#trailer_add form tr textarea{
+	border-radius: 10px;
+}
+#trailer_add form tr td p{
+	color: blue;
+}
+#button{
+	width: 90px;
+	background-color: #aeedef;
+}
+#button:hover{
+	color: red;
+	transition: .5s;
+}
+#movie_add form table tr td p{
+	color: blue;
+}
+.logo{
+	margin-left: 430px;
+	font-size: 50px;
+}
+.message {
+	width: 400px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orange;
+	border-radius: 20px;
+}
+.message p{
+	color: blue;
+	padding: 5px 20px;
+}

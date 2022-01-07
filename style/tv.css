@@ -1,0 +1,282 @@
+body {
+	font-size:12px;
+	line-height:1.3;
+	font-family:Arial, Helvetica, Sans-Serif;
+	color:#ccc;
+	margin: 0 auto;
+	width: 1000px;
+	background:url('../images/logo_background/body-bg.gif');
+}
+a {
+	color:#e7b038;
+	text-decoration:underline;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+a img {
+	border:0;
+}
+input, textarea, select {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+textarea {
+	overflow:auto;
+}
+.cl {
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	clear:both;
+}
+.notext {
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+.left, .alignleft {
+	float:left;
+	display:inline;
+}
+.right, .alignright {
+	float:right;
+	display:inline;
+}
+.text-right {
+	text-align:right;
+}
+h2 {
+	font-size:10px;
+	color:#f2a223;
+	font-weight:bold;
+}
+h3 {
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+}
+h4 {
+	font-size:14px;
+	color:#f3b12b;
+	font-weight:bold;
+}
+.slideshow-container {
+  max-width: 980px;
+  position: relative;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*end of slider*/
+.heading{
+	margin-top: 40px;
+  width:980px;
+  padding-top:14px;
+  padding-bottom:11px;
+}
+
+.heading h2{
+  float: left;
+  display: inline;
+  color: #FF8D1B;
+}
+.shell{
+  width:1000px;
+  border-top: 1px dashed #413e3e;
+  height: 250px;
+}
+.banner{
+  margin-right:1px;
+  float:left;
+  width:152px;
+  position:relative;
+  padding :5px;
+  height: 250px;
+}
+.banner img{
+  width: 152px;
+  height: 214px;
+}
+.banner p{
+	text-align: center;
+}
+.banner p a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+.banner a:hover{
+	background-color: white;
+	color: red;
+	transition:  .5s;
+}
+#main {
+	border-bottom:1px dashed #413e3e;
+}
+#content {
+	margin-top: 40px; 
+}
+.box {
+	width:980px;
+	border-bottom:1px dashed #413e3e;
+	padding-bottom:21px;
+}
+.box .head {
+	width:980px;
+	padding-top:14px;
+	padding-bottom:11px;
+}
+.box .head h2 {
+	float:left;
+	display:block;
+}
+.box .movie {
+	width:152px;
+	float:left;
+	padding-right:12px;
+}
+.movie-image {
+	float:left;
+	width:152px;
+	height:214px;
+	position:relative;
+}
+.movie-image img {
+	width:152px;
+	height:214px;
+}
+.movie-image a {
+	float:left;
+	display:inline;
+	width:152px;
+	height:214px;
+	position:relative;
+	z-index:2;
+}
+.play {
+	position:absolute;
+	top:0;
+	left:0;
+	width:152px;
+	height:214px;
+	background:url('images/image-hover.png');
+	display:block;
+	z-index:5;
+	cursor:pointer;
+	display:none;
+}
+.movie span.name {
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	padding-top:160px;
+	display:block;
+}
+.box .last {
+	padding:0;
+}
+.rating {
+	float:left;
+	width:152px;
+	padding-top:8px;
+}
+.rating p {
+	float:left;
+	font-size:10px;
+	color:#fff;
+	font-weight:bold;
+}
+.rating .stars {
+	float:left;
+	width:60px;
+	height:11px;
+	background:url('../images/stars.gif') no-repeat 0 0;
+	margin-left:2px;
+}
+.rating .stars-in {
+	width:48px;
+	display:inline;
+	background:url('../images/stars.gif') no-repeat 0 bottom;
+	position:absolute;
+	height:11px;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+.comments {
+	background:url('../images/comments.gif') no-repeat 0 center;
+	padding-left:12px;
+	float:right;
+}
+.intro{
+	font-size: 16px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	margin-top: 55px;
+	text-align: left;
+}
+.paragraph{
+	font-family: sans-serif;
+	margin-left: 0 auto;
+	font-size: 16px;
+}
+.team{
+	font-family: sans-serif;
+	margin-left: 0 auto;
+	font-size: 16px;
+}
